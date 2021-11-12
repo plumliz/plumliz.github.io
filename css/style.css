@@ -82,7 +82,7 @@ img {
 }
 
 .myButton:hover {
-    background-color:#e69708;
+    background-color:rgba(0,0,0,0.2);
 }
 
 .myButton:active {
@@ -147,4 +147,12 @@ img {
 
 footer {
   margin-top: 44px;
+}
+@media all and (max-width:700px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+  .description {
+    font-size: 18px;
+  }
 }
